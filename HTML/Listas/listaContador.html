@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        ol{
+            list-style: none;
+            counter-reset: contador;
+        }
+
+        ol li::before{
+            content: counter(contador) " - " ;
+        }
+
+        ol li{
+            counter-increment: contador;
+        }
+
+    </style>
+    <ol>
+        <li>Hola</li>
+        <li>Hello</li>
+        <li>Hi</li>
+        <li>Bonjour</li>
+    </ol>
+</body>
+</html>

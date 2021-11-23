@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+aside{
+    float: left;
+    padding: 15px;
+    width: 30%;
+}
+
+article{
+    float: left;
+    padding: 15px;
+    width: 70%;
+}
+
+article h1{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+section::after{
+    content: " ";
+    clear: both;
+    display: table;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #1d4553;
+    color: #fff;
+
+}
+
+nav li:hover{
+    background-color: #0099cc
+}

@@ -1,0 +1,65 @@
+body{
+    width: 480px;
+    margin: 0 auto;
+}
+
+h1{
+   font-size:36px;
+}
+p{
+    text-align: justify;
+}
+h2{
+    font-size:18px;
+    color: grey;
+    font-style: italic;
+}
+
+h4{
+    font-size:20px;
+    
+}
+
+ol{
+    background-color:grey;
+    padding: 5px;
+}
+li{
+    padding-left: 5px;
+    display: inline;
+    
+}
+li a:visited, a:link{
+    color: pink;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: yellow;
+}
+
+ .cabecera{
+    margin-left: 15px;
+    color: red;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.parrafo{
+    border: 1px solid red;
+    padding: 10px;
+   color:red;
+   background-color:rgb(240, 154, 154)
+}
+
+.formulario{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#eee
+   
+}
+footer{
+    text-align: center;
+}
+

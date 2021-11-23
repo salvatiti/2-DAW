@@ -1,0 +1,111 @@
+@media screen {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    background-color: #017fe3;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: white;
+  }
+
+  h1 span {
+    color: black;
+  }
+
+  b {
+    font-size: 1.3rem;
+  }
+
+  h1 #genio:hover {
+    color: white;
+    text-shadow: 0.1em 0.01em black;
+  }
+
+  div p::first-letter {
+    font-size: 1.5rem;
+    font-family: Comic sans-serif;
+    font-weight: bold;
+  }
+
+  #p1 {
+    box-sizing: border-box;
+    width: 60%;
+    border: 8px solid black;
+    border-radius: 30px;
+    margin: 1% 20%;
+    text-align: center;
+    background-color: white;
+  }
+
+  div p:hover {
+    text-decoration: underline;
+  }
+
+  #p2 {
+    background-color: #fee08a;
+    border: 15px solid #f3ab23;
+    width: 50%;
+    padding: 0 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+  }
+
+  #p3 {
+    background-color: #7dcb81;
+    border: 10px solid #336a4e;
+    color: white;
+    width: 50%;
+    padding: 0;
+    text-align: center;
+    margin-left: 49%;
+    margin-top: 10px;
+  }
+
+  #p4 {
+    background-color: #004680;
+    border: 5px dashed white;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 15px auto;
+  }
+
+  #p5 {
+    width: 55%;
+    border: 8px solid black;
+    border-radius: 30px;
+    text-align: center;
+    background-color: white;
+  }
+
+  #p6 {
+    background-color: #fee08a;
+    border: 15px solid #f3ab23;
+    width: 53%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 20px;
+  }
+
+  #p7 {
+    background-color: #7dcb81;
+    border: 10px solid #336a4e;
+    color: white;
+    width: 55%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0;
+  }
+}
+
+@media print {
+  p::before {
+    content: "*";
+  }
+}

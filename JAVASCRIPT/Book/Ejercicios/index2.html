@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 150px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 10px;
+            background-color: rgb(0, 163, 163);
+            color: blue;
+            font-weight: bold;
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="div">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+    <input type="button" value="cambiarColor P1" id="color" onclick= "color1()" />
+    <input type="button" value="quitarColor P1" id="color" onclick= "quitar1()" />
+    <input type="button" value="cambiarColor P2" id="color" onclick= "color2()" />
+    <input type="button" value="quitarColor P2" id="color" onclick= "quitar2()" />
+    <input type="button" value="cambiarColor P3" id="color" onclick= "color3()" />
+    <input type="button" value="quitarColor P3" id="color" onclick= "quitar3()" />
+
+
+    <script>
+      let  cambiarColor = document.getElementById("div").firstElementChild;
+
+        function color1(){ cambiarColor.style.color = "red";}
+        function quitar1(){ cambiarColor.style.color = "black";}
+        function color2(){ cambiarColor.nextElementSibling.style.color = "blue";}
+        function quitar2(){ cambiarColor.nextElementSibling.style.color = "black";}
+        function color3(){ cambiarColor.nextElementSibling.nextElementSibling.style.color = "yellow";}
+        function quitar3(){ cambiarColor.nextElementSibling.nextElementSibling.style.color = "black";}
+        
+    </script>
+</body>
+</html>

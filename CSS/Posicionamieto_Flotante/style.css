@@ -1,0 +1,18 @@
+
+#contenedor{
+    background-color: grey;
+    font-size: 3em;   
+}
+
+img{
+    background-color: grey;
+}
+
+.derecha{
+    float: right;
+    
+}
+
+.izquierda{
+    float: left;
+}

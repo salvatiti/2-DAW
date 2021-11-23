@@ -1,0 +1,13 @@
+<!ELEMENT modelos (modelo+)>
+<!ELEMENT modelo (nombre,apellidos,edad,nacionalidad,desfiles?,(hombre|mujer))>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)> <!---#PCDATA  tiene datos en el xml predefinidos-->
+<!ELEMENT desfiles (marca+)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT hombre EMPTY > <!--EMPTY elementos vacios-->
+<!ELEMENT mujer EMPTY >
+
+<!ATTLIST modelo altura CDATA #REQUIRED>
+<!ATTLIST modelo peso CDATA #REQUIRED> <!--CDATA datos para atributos y #REQUIRED es requerido-->

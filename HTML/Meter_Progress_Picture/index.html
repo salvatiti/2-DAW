@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>tablas</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="estil.css">
+    </head>
+
+    <body> 
+       
+        <p>Avance del proceso: <meter min="0" max="100" value="20"></meter></p>
+        <p>Avance del proceso: <meter min="0" max="100" value="90"></meter></p>
+
+        <p>Calificación: <meter min="0" max="10" low="5" high="7" optimum="8" value="4.9"></meter></p>
+        <p>Calificación: <meter min="0" max="10" low="5" high="7" optimum="8" value="5"></meter></p>
+        <p>Calificación: <meter min="0" max="10" low="5" high="7" optimum="8" value="6.9"></meter></p>
+        <p>Calificación: <meter min="0" max="10" low="5" high="7" optimum="8" value="7"></meter></p>
+        <p>Calificación: <meter min="0" max="10" low="5" high="7" optimum="8" value="10"></meter></p>
+
+        <p>Cargando...
+		<progress></progress></p><br>
+        <progress max="10" value="3"></progress>&nbsp;30%
+		
+		<br><br>
+		
+		<h2>Etiqueta picture</h2>
+
+			<picture>
+			  <source media="(min-width: 650px)" srcset="cieza.jpg">
+			  <source media="(min-width: 525px)" srcset="cieza2.jpg">
+			  <source media="(min-width: 465px)" srcset="cieza1.jpg">
+			  <img src="cieza2.jpg" style="width:auto;">
+			</picture>
+
+
+			<img src="workplace.jpg" alt="mapa" usemap="#mapa" width="400" height="379">
+
+				<map name="mapa">
+				  <area shape="rect" coords="34,44,270,350" alt="Computer" href="http://www.apple.es">
+				  <area shape="rect" coords="290,172,333,250" alt="Phone" href="http://www.mi.com" target="_blank">
+				  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="http://nespresso.es">
+				</map>
+						
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,62 @@
+div {
+  position: absolute;
+  border: solid black 3px;
+  padding: 5px;
+}
+
+div.casa {
+  height: 300px;
+  width: 400px;
+  background-color: grey;
+  
+}
+
+#h1 {
+  border: 5px solid black;
+  top: 100px;
+  left: 150px;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+div.tejado {
+  border: 5px solid black;
+  height: 40px;
+  width: 450px;
+  background-color: red;
+  top: -65px;
+  left: -27px;
+  margin-right: 100px;
+}
+
+.puerta {
+  border: 5px solid black;
+  position: absolute;
+  background-color: #800000;
+  width: 100px;
+  height: 100px;
+  top: 12.1em;
+  left: 9em;
+}
+
+h1 {
+  font-size: 3.8em;
+}
+
+.ventana {
+  border: 5px solid black;
+  width: 80px;
+  height: 80px;
+  top: 70px;
+  left: 20px;
+  background-color: blue;
+}
+
+.ventana2 {
+  border: 5px solid black;
+  width: 80px;
+  height: 80px;
+  top: 150px;
+  left: 300px;
+  background-color: blue;
+}

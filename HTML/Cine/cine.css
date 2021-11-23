@@ -1,0 +1,73 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: url(fondo.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+  
+}
+
+h1 {
+  text-align: center;
+  color: tomato;
+}
+
+div {
+  text-align: center;
+}
+
+em {
+  font-weight: bolder;
+}
+
+div a {
+  color: darkgreen;
+  text-decoration: solid;
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid darkgreen;
+}
+div a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+table {
+  text-align: center;
+}
+
+img {
+ width: 50%;
+ 
+}
+
+#palomitas {
+  width: 300px;
+}
+
+
+.imagen{
+width: 20%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: yellowgreen;
+}
+
+h2{
+color: rgb(173, 171, 171);
+
+}
+
+ p{
+    color: white;
+}

@@ -1,0 +1,53 @@
+/*
+ * Fichero: main3.css; 
+ * Descripci�n: Estilos ejercicio 3 examen DIW;
+
+*/
+
+*{
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	width: 1000px;
+}
+
+
+div {
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 2px dotted red;
+	border-collapse: collapse;
+	
+}
+
+h1{
+	color: white;
+	font-size: 4em;
+	margin-left: 45%;
+}
+
+#cubo1{
+background-color: deeppink;
+}
+
+#cubo2{
+background-color: hotpink;
+float: right;
+}
+
+#cubo3{
+	background-color: lightblue;
+	width: 600px;
+}
+
+#cubo4 h1{
+	margin-left: 47%;
+}
+
+#cubo4{
+background-color: darkmagenta;
+width: 1000px;
+}

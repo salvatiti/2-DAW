@@ -1,0 +1,72 @@
+/*
+Estilos para la caja y para el elemento a mover
+*/
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+img{
+/*Es importantisimo asignarle a la imagen una posición relativa
+para que pueda moverse siguiendo el flujo natural del HTML es
+decir dentro de la caja.
+*/
+width:100px;
+position:absolute;
+top: 82%;
+}
+
+#enemiga{
+    /*Es importantisimo asignarle a la imagen una posición relativa
+    para que pueda moverse siguiendo el flujo natural del HTML es
+    decir dentro de la caja.
+    */
+    width:70px;
+    height: 40px;
+    position:relative;
+    display:block;
+    
+}
+
+#shoot{
+    width: 25px;
+    position: absolute;
+    top: 535px;
+    margin-left: 37px;
+    margin-right: 47px;
+
+}
+
+#lienzo{
+margin: auto;
+border: 2px solid black;
+/*box-shadow:0px 0px 20px gray inset;*/
+width:95%;
+height:95%;
+border-radius:20px;
+position: relative;
+
+}
+
+/* Animaciones en css
+.gira{
+-moz-animation:rotar 500ms infinite linear;
+-webkit-animation:rotar 500ms infinite linear;
+}
+
+@-webkit-keyframes rotar{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+    }
+    
+@-moz-keyframes rotar{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+} */

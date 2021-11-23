@@ -1,0 +1,91 @@
+/*GENERAL*/
+h1 {
+  background-color: #e6e6e6;
+  color: blue;
+  width: 50%;
+  text-align: center;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.caja {
+  background-color: #add8e6;
+  border: 10px solid #ffbfca;
+  padding: 50px 60px;
+  width: 10%;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*EJERCICIO1*/
+.caja1 {
+  position: relative;
+  left: 1em;
+}
+
+.caja2 {
+  position: relative;
+  bottom: 2em;
+  left: 2em;
+}
+
+.caja3 {
+  position: relative;
+  bottom: 4em;
+  left: 3em;
+}
+
+/*EJERCICIO2*/
+.caja4,
+.caja6,
+.caja7 {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.caja5 {
+  position: absolute;
+  left: 12em;
+}
+
+/*EJERCICIO3*/
+.caja8{
+    position: absolute;
+    left:1em;
+    margin-top: 10px;
+}
+.caja9{
+    position: absolute;
+    left: 11em;
+    margin-top: 10px;
+}
+.caja10{
+    position: absolute;
+    left: 21em;
+    margin-top: 10px;
+}
+
+/*EJERCICIO4*/
+.abajo{
+  margin-top: 400px;
+}
+
+.caja11{
+ 
+  margin-left: 20px;
+}
+
+.caja12{
+position: relative;
+bottom: 4.9em;
+left: 11em;
+}
+
+.caja13{
+  position: relative;
+  bottom: 9.8em;
+  left: 22em;
+}

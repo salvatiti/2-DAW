@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "pardo.dtd">
+<personas>
+<persona>
+<nombre>Juan Pardo</nombre>
+<nacimiento dia = "10" mes = "Abril" año="1982" />
+<direccion>
+<calle>Caoba,1</calle>
+<poblacion>Madrid</poblacion>
+<provincia>Madrid</provincia>
+<cp>20040</cp>
+</direccion>
+<varon/>
+</persona>
+
+<persona>
+<nombre>Juana Parda</nombre>
+<nacimiento dia = "11" mes = "Abril" año="1982" />
+<direccion>
+<calle>Caoba,2</calle>
+<poblacion>Madrid</poblacion>
+<provincia>Madrid</provincia>
+<cp>20040</cp>
+</direccion>
+<hembra/>
+</persona>
+
+</personas>
+

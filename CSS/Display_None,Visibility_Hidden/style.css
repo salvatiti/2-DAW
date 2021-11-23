@@ -1,0 +1,39 @@
+
+.contenedor1,.contenedor2{
+    border: 3px solid black;
+    width: 30%;
+    margin: 40px;
+    background-color:gray;
+}
+h3{
+    text-align: center;
+}
+
+.contenedor1{
+    float: left;
+   
+    
+}
+
+.contenedor2{
+    float: left;
+}
+
+.dentro{
+    font-size: 30px;
+    background-color:green;
+   border: 4px solid yellow; 
+   padding: 50px;
+   width: 5%;
+   float: left;
+   margin: 8px;
+  
+}
+
+.none{
+    display: none;
+}
+
+.hidden{
+    visibility: hidden;
+}

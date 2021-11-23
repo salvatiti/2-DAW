@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="formulario.php" autocomplete="off" method="POST">
+        <label for="idPersona">ID Persona:</label>
+        <input type="text" name="idPersona" value="1" readonly="true" ><br><br>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" value="Salva" readonly><br><br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" ><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Introduce tu email" size="50" maxlength="20"><br>
+        <label for="password"> Password</label>
+        <input type="password" name="password" placeholder="Pass" required> <span style="color: red;"> * </span> <br>
+        <input type="radio" name="genero" value="Hombre" checked> Hombre <br>
+        <input type="radio" name="genero" value="Mujer" checked> Mujer <br>
+        <input type="radio" name="genero" value="Non-Binary" checked> Non-Binary <br>
+        <label for="bday"></label>
+        <input type="date" name="bday"> <br>
+        Telefono <br><input type="tel" name="telefono" autofocus><br> <br>
+
+        <fieldset > <legend>No inputs</legend>  <br> 
+            <select name="coches">
+                <option value="No"> Selecciona tu coche</option>
+                <option value="Audi"> Audi</option>
+                <option value="Ford"> Ford</option>
+                <option value="Opel"> Opel</option>
+            </select> <br> <br><br>
+
+            <textarea name="mensaje" cols="30" rows="10" noresize="noresize"
+                placeholder="Que has hecho hoy picha"></textarea><br>
+            <br>
+
+            <input type="checkbox" name="opcion" value="Hombre"> Hombre <br>
+            <input type="checkbox" name="opcion" value="Mujer"> Mujer <br>
+            <input type="checkbox" name="opcion" value="Non-Binary" checked> Non-Binary <br>
+
+
+        </fieldset>
+
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+</body>
+
+</html>

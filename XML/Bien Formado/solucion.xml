@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ejercicio>
+<deportistas>
+<deportista>
+<deporte >Atletismo</deporte>
+<nombre>Jesse Owens</nombre>
+</deportista>
+
+<deportista>
+<deporte>Natacion</deporte>
+<nombre>Mark Spitz</nombre>
+</deportista>
+</deportistas>
+
+<peliculas>
+<pelicula>
+  <titulo>Con faldas y a lo loco</titulo>
+  <director>Billy Wilder</director>
+</pelicula>
+<pelicula>
+  <titulo>Leo McCarey</titulo>
+  <director>Sopa de ganso</director>
+</pelicula>
+
+</peliculas>
+
+<texto>
+  <Titulo>XML explicado a los niños</Titulo>
+  <párrafo>El <abreviatura>XML</abreviatura>define cómo crear
+  lenguajes de marcas.</párrafo>
+  <párrafo>Las marcas se añaden a un documento de texto
+  para añadir información.</párrafo>
+  <http>www.example.org</http>
+</texto>
+
+<geografia_mundial>
+  <pais>
+    <pais>España</pais>
+    <continente>Europa</continente>
+    <capital>Madrid</capital >
+  </pais>
+</geografia_mundial>
+
+<programas>
+  <programa nombre="Firefox" licencia="GPL" />
+  <programa nombre="LibreOffice" licencia="LGPL" />
+  <programa nombre="Inkscape" licencia="GPL" />
+</programas>
+
+<mundiales-de-futbol>
+  <mundial>
+ <pais>España</pais>
+    <fecha>1982</fecha>
+  </mundial>
+</mundiales-de-futbol>
+
+<medios>
+  <bicicleta velocidad="v100km/h" />
+  <patinete velocidad_maxima="50 km/h"/>
+  </medios>
+
+
+</ejercicio>

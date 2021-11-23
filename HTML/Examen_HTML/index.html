@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Examen HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>IES LOS ALBARES</h1>
+      <h2>Ejemplo de HTML5 y CSS3 en acción</h3>
+    </header>
+    <nav>
+      <ol>
+        <li><a href="index.html">Home</a> &nbsp; </li>|
+        <li><a href="https://www.ieslosalbares.es">Sobre Nosotros</a>  &nbsp;</li>|
+        <li> <a href="#iframe">Contacto</a>  &nbsp;</li>|
+      </ol>
+    </nav>
+    <article>
+      <h3 class="cabecera">Cabecera del artículo</h3>
+      <p>
+        Este es un artículo que muestra algunas de las nuevas características
+        que ofrecen HTML5 y CSS3. Este artículo contiene varias secciones, cada
+        una con su propio encabezado, así como un elemento de video que
+        Reproducirá un video sin Flash en los navegadores compatibles.
+      </p>
+      <section>
+        <h4>Este es el encabezado de la sección</h4>
+        <p>
+          Este es un ejemplo de una sección básica de un documento. Una sección
+          puede referirse a diferentes partes de un documento, aplicación o
+          página. De acuerdo con el borrador de la especificación del W3C, las
+          secciones HTML5 generalmente tienen encabezados.
+        </p>
+      </section>
+      <section>
+          <h4>Este es un vídeo de una sección</h4>
+          <video controls autoplay muted>
+            <source src="video/transformers480.ogg" type="video/ogg">
+            </video>
+          <p class="parrafo">Este video solo se visualizara en Mozilla Firefox y Google Chrome</p>
+      </section>
+      <section >
+          <h4>Este es el formulario de Feedback</h4>
+          <form action="">
+          <div class="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Introduce tu nombre"><br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Introduce tu email"><br>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" placeholder="Introduce tu telefono"><br>
+            <label for="fecha">Fecha de revisión</label>
+            <input type="date" name="fecha"> <br>
+            <br>
+            <input type="submit" value="Recibir llamada">
+        </div>
+      </form>
+      </section>
+      <section>
+          <h4>Esto es un iframe en una sección</h4>
+        <iframe name="iframe" id="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.9211581473946!2d-1.4073290849350968!3d38.23493679332406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd646c32ae6b46a9%3A0xdb33fe95d9a5a87!2sTanatorio%20De%20Cieza!5e0!3m2!1ses!2ses!4v1636618020875!5m2!1ses!2ses" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+      <br>
+    </article>
+    <footer>&copy;2019 IES Los Albares. Todos los derechos reservados</footer>
+ 
+  </body>
+</html>

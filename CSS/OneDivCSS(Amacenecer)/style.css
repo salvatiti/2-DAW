@@ -1,0 +1,55 @@
+body {
+    width: 100%; height: 100vh;
+    background: #3d76f0;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    animation: cielo 21s alternate infinite;
+  }
+  .amanecer {
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 66%;
+    left: 10%;
+    background: radial-gradient(#045e0c 30%, #237c00 70%);
+    border-radius: 40% 50% 0 0;
+    border-top: 15px solid #0c6e0a;
+    border-right: 145px solid #0c6e0a;
+  }
+  .amanecer::before {
+    content: "";
+    position: absolute;
+    width: 200px; height: 200px;
+    background: radial-gradient(#ffff00 30%, #ff6600f8 70%, #ff4800 20%);
+    filter: blur(100px);
+    animation: sol 21s alternate infinite;
+    border: 21px solid #ffff00;
+    opacity: 0.5;
+  }
+  .amanecer::after {
+    content: "";
+    position: absolute;
+    width: 66%; height: 100%;
+    top: -10%;
+    left: -20%;
+    background: radial-gradient(#053a11 10%, #237c00 90%);
+    border-radius: 40% 50% 0 0;
+    border-right: 50px solid #2574068c;
+    z-index: 1;
+  }
+  @keyframes sol {
+    0% {
+      border-radius: 50%;
+      transform: scale(0.1);
+    }
+    100% {
+      border-radius: 50%;
+      transform: scale(2) rotate(2deg) translate(100%, -100%);
+      filter: blur(50px);
+      opacity: 1;
+    }
+  }
+  @keyframes cielo {
+     0%, 20% { background: #000; }
+    60%, 95% { background: #3d76f0; }
+  }

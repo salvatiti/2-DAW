@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:simpleType name="tiponombre">
+<xs:restriction base="xs:string">
+
+<xs:pattern value ="Barbara|Lily|Behati|Francisco"/>
+
+</xs:restriction>
+</xs:simpleType>
+
+    <xs:element name="nombre" type="tiponombre" />
+    <xs:element name="apellidos" type="xs:string" />
+    <xs:element name="edad" type="xs:integer" />
+    <xs:element name="nacionalidad" type="xs:string" />
+    <xs:element name="marca" type="xs:string" />
+    <xs:element name="hombre" />
+    <xs:element name="mujer" />
+
+
+    <xs:attribute name=" altura" type="xs:float" />
+    <xs:attribute name=" peso" type="xs:integer" />
+
+
+    <xs:element name="modelos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="modelo" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="modelo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre" />
+                <xs:element ref="apellidos" />
+                <xs:element ref="edad" />
+                <xs:element ref="nacionalidad" />
+                <xs:element ref="desfiles" minOccurs="0" />
+                <xs:choice>
+                    <xs:element ref="hombre" />
+                    <xs:element ref="mujer" />
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute ref="altura" />
+            <xs:attribute ref="peso" />
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="desfiles">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="marca" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

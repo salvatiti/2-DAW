@@ -1,0 +1,29 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+background-color: #EE82EE;
+}
+
+h2{
+color: rgb(165, 57, 213);
+}
+
+div p span.comer{
+    color: #2A95A0;
+    font-style: italic;
+}
+
+h3{
+    color: rgb(165, 57, 213);
+}
+
+.uso{
+    background-color: rgb(190, 187, 187);
+    border: 5px solid black;
+    border-radius: 10px;
+    border-style: double;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}

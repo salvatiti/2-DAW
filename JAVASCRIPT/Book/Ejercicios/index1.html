@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 100px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 10px;
+            background-color: rgb(0, 163, 163);
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p id="parrafo">Soy un parrafo</p>
+    <input type="button" value="fuente_pequeña" id="pequeña" onclick= "hacerPequeño();"/>
+    <input type="button" value="fuente_mediana " id="mediana" onclick="hacerMediano()"/>
+    <input type="button" value="fuente_grande" id="grande" onclick="hacerGrande()"/>
+    <input type="button" value="negrita" id="negrita" onclick="negrita()"/>
+    <input type="button" value="cursiva" id="cursiva" onclick="cursiva()"/>
+
+
+    <script>
+    let parrafos = document.getElementById("parrafo");
+
+     function hacerPequeño(){
+       parrafos.style.fontSize = "10px"; 
+    }
+    function hacerMediano(){
+       parrafos.style.fontSize = "15px"; 
+    }
+    function hacerGrande(){
+       parrafos.style.fontSize = "20px"; 
+    }
+    function negrita(){
+       parrafos.style.fontWeight = "bold"; 
+    }
+    function cursiva(){
+       parrafos.style.fontStyle = "italic"; 
+    }
+
+    </script>
+</body>
+</html>

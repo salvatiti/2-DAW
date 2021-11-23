@@ -1,0 +1,425 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+iframe {
+  width: 100%;
+  height: 900px;
+  border: none;
+}
+
+p {
+  text-align: justify;
+}
+
+#seccion .log {
+  margin-left: 450px;
+}
+
+.log {
+  text-align: center;
+}
+
+.bi-instragram,
+.bi-twitter {
+  margin-left: 30px;
+}
+
+#seccion {
+  font-size: 2em;
+  background-color: black;
+  color: white;
+
+  padding: 5px;
+  margin: 10px;
+}
+
+nav#lista a:link,
+a:visited,
+a:link {
+  color: white;
+  
+}
+
+nav#lista a:hover {
+  color: aqua;
+  text-shadow: 1px 1px white;
+}
+
+#seccion a {
+  color: white;
+}
+
+#seccion a:hover {
+  color: aqua;
+  text-shadow: 1px 1px white;
+}
+
+section #carrito {
+  float: right;
+  margin-right: 50px;
+}
+
+#portada {
+  margin: auto;
+  width: 30%;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+#lista {
+  background-color: #001468;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+#lista li {
+  margin: 20px;
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.caja a:visited,
+a:active,
+a:link {
+  color: #001468;
+  text-decoration: none;
+}
+
+.caja a:hover {
+  color: aqua;
+  text-decoration: none;
+}
+
+.caja {
+  float: left;
+  margin: 10px;
+}
+
+#principal {
+  margin-left: 10px;
+  width: 50%;
+}
+
+#lebron {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: large;
+}
+
+#secundaria,
+#terciaria,
+#cuarta {
+  width: 45%;
+}
+
+#irving {
+  width: 45%;
+  border-radius: 10px;
+}
+
+article.caja img#irving {
+  float: left;
+  margin-right: 10px;
+}
+
+#secundaria,
+#terciaria,
+#cuarta p {
+  font-size: 0.7em;
+}
+
+#simmons {
+  width: 45%;
+  border-radius: 10px;
+}
+
+article.caja img#simmons {
+  float: left;
+  margin-right: 10px;
+}
+
+#gasol {
+  width: 45%;
+  border-radius: 10px;
+}
+
+article.caja img#gasol {
+  float: left;
+  margin-right: 10px;
+}
+
+aside::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+.centrar {
+  text-align: center;
+}
+
+/*Footer*/
+#arriba {
+  width: 100%;
+}
+
+footer h3 {
+  margin-top: 50px;
+  margin-bottom: none;
+  background-color: #001468;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.producto {
+  float: left;
+  width: 33.3%;
+  background-color: black;
+  height: 200px;
+}
+
+footer ul {
+  margin: auto;
+  color: white;
+  padding: 20px;
+}
+
+.encabezado {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer li {
+  list-style: none;
+  text-align: center;
+}
+
+.pie li {
+  margin: 10px;
+}
+
+.pie {
+  width: 100%;
+}
+
+/*CAMISETAS*/
+
+.imagenes {
+  float: left;
+  width: 23%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.james:hover {
+  background-color: #f9ca13;
+  color: #4d1ab1;
+}
+
+.jokic:hover {
+  background-color: #202334;
+  color: #f6be04;
+}
+
+.lamelo:hover {
+  background-color: #57b1a2;
+  color: #342a34;
+}
+
+.love:hover {
+  background-color: #650827;
+  color: #e1ad45;
+}
+
+.mcgrady:hover {
+  background-color: #403261;
+  color: #b8bcc3;
+}
+
+.morant:hover {
+  background-color: #202125;
+  color: #d1af72;
+}
+
+.embiid:hover {
+  background-color: #1f346d;
+  color: #cacedb;
+}
+
+.kirilenko:hover {
+  background-color: #cacedb;
+  color: #2a3d55;
+}
+
+.imagenes img {
+  width: 100%;
+  height: auto;
+}
+
+.descripcion {
+  text-align: center;
+  font-weight: bolder;
+}
+
+/*FORMULARIO*/
+
+#cuerpo {
+  background-image: url(image/leaguepass.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 99%;
+}
+
+.formulario {
+  margin-left: 20px;
+  margin-top: 100px;
+  width: 400px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.formulario h2 {
+  margin: 30px;
+  font-size: 30px;
+  color: #4cc9f0;
+  text-align: center;
+}
+
+.elemento label {
+  color: white;
+}
+
+.elemento input {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+}
+
+.elemento input[type="submit"] {
+  background-color: #24428a;
+  border: none;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/*CLASIFICACION*/
+#conference {
+  margin: 90px 200px;
+  width: 70%;
+}
+
+#seleccionar {
+  width: 40%;
+  border-radius: 15px;
+}
+
+body > h1 {
+  color: white;
+  background-color: black;
+  width: 27%;
+  margin: 10px auto;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+section > h1 {
+  color: white;
+  background-color: black;
+  width: 25%;
+  margin: 30px auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/*TABLA*/
+
+table {
+  width: 100%;
+  margin: 80px auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 50%;
+  text-indent: initial;
+  white-space: normal;
+}
+
+table,
+tr {
+  border: 1px solid black;
+}
+
+td {
+  padding: 8px;
+}
+
+th {
+  padding: 5px;
+}
+
+.izquierda {
+  text-align: left;
+  padding-left: 10px;
+}
+
+#oeste {
+  background: url(image/oeste.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+#este {
+  background: url(image/este.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+th {
+  font-size: 1.2em;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(80, 78, 78);
+  color: white;
+  opacity: 0.8;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(129, 128, 128);
+  color: black;
+  opacity: 0.8;
+  font-weight: bolder;
+}
+
+th {
+  background-color: black;
+  color: white;
+}

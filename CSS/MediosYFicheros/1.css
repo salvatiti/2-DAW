@@ -1,0 +1,53 @@
+* {
+    color-adjust: exact; 
+    -webkit-print-color-adjust: exact; 
+     }
+
+table, th, tr, td{
+   margin:auto;
+    margin-top: 20%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+th{
+    background-color: rgb(252, 128, 84);
+}
+
+
+.par{
+    background-color: rgb(107, 107, 248);
+}
+
+.impar{
+    background-color: rgb(200, 252, 234);
+}
+
+@media print {
+    .par{
+        background-color: rgb(200, 252, 234);
+    }
+}
+
+@media print{
+    .impar{
+        background-color: rgb(107, 107, 248);
+    }
+}
+
+@media screen {
+    body {
+        background: url(coche.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+    }
+    
+}

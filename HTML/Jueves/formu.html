@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+input {
+  width: 100%;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+input[type=mail] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+}
+input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}
+input[type=number]:focus {
+  background-color: lightblue;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+input[type=search] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 12px 12px;
+  transition: width 0.4s ease-in-out;
+  margin-top: 20px;
+}
+
+input[type=search]:focus {
+  width: 90%;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  margin-top:20px;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 20px 2px 2px 2px;
+  width: 100%;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: red;
+  border: none;
+  color: yellow;
+  padding: 16px 32px;
+  margin: 20px 2px 2px 2px;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>Inputs</h2>
+
+<form>
+  <label for="fname">Nombre</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Contraseña</label>
+  <input type="password" id="fname" name="fname">
+  <label for="lname">Correo Electrónico</label>
+  <input type="mail" id="lname" name="lname">
+  <label for="lname">Teléfono</label>
+  <input type="tel" id="lname" name="lname">
+  <label for="lname">Número de cuenta</label>
+  <input type="number" id="lname" name="lname">
+  <label for="lname">Google</label>
+  <input type="search" id="lname" name="lname">
+  <p><strong>Consejo:</strong> </p>
+
+  <textarea>Escribe el texto...</textarea>
+
+  <select id="pais" name="pais">
+        <option value="au">Australia</option>
+        <option value="ca">Canada</option>
+        <option value="usa">USA</option>
+        </select>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        
+
+
+</body>
+</html>

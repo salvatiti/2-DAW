@@ -1,0 +1,35 @@
+div{
+    margin: 20px;
+    width: 25%;
+    height: 300px;
+    border: 10px solid pink;
+    background-color: aqua;
+   
+}
+
+h2{
+    text-align: center;
+}
+
+#center{
+    background-image: url(logoCSS.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    float: left;
+}
+
+#fifty{
+
+background-image: url(logoCSS.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    float: left;
+}
+
+#right{
+  
+background-image: url(logoCSS.png);
+background-repeat: no-repeat;
+background-position: bottom right;  
+float: left;
+}

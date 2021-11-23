@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:simpleType name="tiponombre">
+<xs:restriction base="xs:string">
+<xs:length value="50" />
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name ="tipocp">
+<xs:restriction base="xs:integer">
+<xs:totalDigits value ="5"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name ="tipodia">
+<xs:restriction base="xs:integer">
+<xs:minInclusive value ="1"/>
+<xs:maxInclusive value ="31"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name ="tipomes">
+<xs:restriction base="xs:string">
+<xs:pattern value ="Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name ="tipoanyo">
+<xs:restriction base="xs:integer">
+<xs:minInclusive value ="1900"/>
+<xs:maxInclusive value ="2011"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:element name="nombre" type="tiponombre" />
+<xs:element name="calle" type="tiponombre"/>
+<xs:element name="polablacion" type="tiponombre" />
+<xs:element name="provincia" type="tiponombre" />
+<xs:element name="cp" type="tipocp">/
+<xs:element name="varon" />
+<xs:element name="hembra" />
+
+
+<xs:attribute name="dia" type="tipodia"/>
+<xs:attribute name="mes" type="tipomes"/>
+<xs:attribute name="anyo" type="tipoanyo"/>
+
+<xs:element name="personas">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="persona" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="persona">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="nombre" />
+            <xs:element ref="calle" />
+            <xs:element ref="poblacion" />
+            <xs:element ref="provincia" />
+            <xs:element ref="cp" />
+            <xs:choice>
+                <xs:element ref="varon" />
+                <xs:element ref="hembra" />
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute ref="dia" />
+        <xs:attribute ref="mes" />
+        <xs:attribute ref="anyo" />
+    </xs:complexType>
+</xs:element>
+</xs:schema>

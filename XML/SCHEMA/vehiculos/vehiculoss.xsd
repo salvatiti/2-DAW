@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <xs:element name="nombre" type="xs:string" />
+    <xs:element name="modelo" type="xs:string" />    
+    <xs:element name="dia" type="xs:string" />
+    <xs:element name="mes" type="xs:string" />
+    <xs:element name="anyo" type="xs:string" />
+    <xs:element name="modificacion" type="xs:string"/>
+             
+    <xs:attribute  name="tipo" type="xs:string"/>
+              
+              
+    <xs:element name="vehiculos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="vehiculo" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+    </xs:element>
+  
+   <xs:element name="vehiculo">
+        <xs:complexType>
+            <xs:sequence> 
+              <xs:element ref="nombre" />
+              <xs:element ref="modelo" />
+              <xs:element ref="fabricacion"/>
+              <xs:element ref="modificaciones"/>
+           </xs:sequence>
+          <xs:attribute ref="tipo"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="fabricacion">
+        <xs:complexType>
+            <xs:sequence> 
+              <xs:element ref="inicio"/>
+              <xs:element ref="fin"/>
+           </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+        <xs:element name="inicio">
+        <xs:complexType>
+            <xs:sequence> 
+              <xs:element ref="dia"/>
+              <xs:element ref="mes" />
+              <xs:element ref="anyo" />
+           </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+       <xs:element name="fin">
+        <xs:complexType>
+            <xs:sequence> 
+              <xs:element ref="dia"/>
+              <xs:element ref="mes" />
+              <xs:element ref="anyo" />
+           </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+        <xs:element name="modificaciones">
+        <xs:complexType>
+            <xs:sequence> 
+              <xs:element ref="modificacion" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
+    

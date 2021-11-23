@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modelos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="modelos.xsd">
+
+<modelo altura="1.71" peso="51">
+<nombre>Barbara</nombre>
+<apellidos>Palvin</apellidos>
+<edad>19</edad>
+<nacionalidad>Hungria</nacionalidad>
+<desfiles>
+<marca>Armani</marca>
+<marca>Pull and Bear</marca>
+</desfiles>
+<mujer/>
+</modelo>
+
+<modelo altura="1.75" peso="55">
+<nombre>Lily</nombre>
+<apellidos>Aldrige</apellidos>
+<edad>30</edad>
+<nacionalidad>Estados Unidos</nacionalidad>
+<mujer/>
+</modelo>
+
+<modelo altura="1.78" peso="51">
+<nombre>Behati</nombre>
+<apellidos>Prinsloo</apellidos>
+<edad>26</edad>
+<nacionalidad>Namibia</nacionalidad>
+<desfiles>
+<marca>Hugo Boss</marca>
+<marca>Chanel</marca>
+<marca>DKNY</marca>
+</desfiles>
+<mujer/>
+</modelo>
+
+<modelo altura="1.86" peso="73">
+<nombre>Francisco</nombre>
+<apellidos>Lachowski</apellidos>
+<edad>24</edad>
+<nacionalidad>Brasil</nacionalidad>
+<desfiles>
+<marca>Karl Lagerfeld</marca>
+<marca>Dior Homme</marca>
+<marca>Ermenegildo Zegna</marca>
+<marca>Lacoste</marca>
+</desfiles>
+<hombre/>
+</modelo>
+
+
+</modelos>

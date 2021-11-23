@@ -1,0 +1,44 @@
+﻿/*
+ * Fichero: main.css; 
+ 
+ * Descripción: Estilos ejercicios 1 y 2 examen DIW;
+ 
+*/
+
+
+* { 	
+	margin: 0;
+	padding: 0;
+}
+
+div { 	
+	width: 150px;
+	height: 150px;
+	border:1px groove blue;
+	position: relative;
+}
+
+h1{
+	font-size: 4em;
+	margin-left: 40%;
+	margin-top: 30%;
+	color: white;
+}
+
+#cubo1{
+	background-color: red;
+}
+
+#cubo2{
+background-color: blue;
+left: 150px;
+}
+#cubo3{
+background-color: green;
+left: 300px;
+}
+#cubo4{
+background-color: yellow;
+left: 450px;
+}
+
