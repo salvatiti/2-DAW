@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD:Java/Trains-master/src/main/webapp/META-INF/context.xml
-<Context path="/trains"/>
-=======
-<Context path="/restaurantQR"/>
->>>>>>> a94e0577134d59fb2fab27f2b639f8a5e33cc67b:restaurantQR/src/main/webapp/META-INF/context.xml
