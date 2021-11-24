@@ -3,9 +3,7 @@
 
 <xs:simpleType name="tiponombre">
 <xs:restriction base="xs:string">
-
 <xs:pattern value ="Barbara|Lily|Behati|Francisco"/>
-
 </xs:restriction>
 </xs:simpleType>
 

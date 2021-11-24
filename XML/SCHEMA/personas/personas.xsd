@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 
 <xs:simpleType name="tiponombre">
 <xs:restriction base="xs:string">
-<xs:length value="50" />
+<xs:maxLength value="50" />
 </xs:restriction>
 </xs:simpleType>
 
@@ -35,30 +35,30 @@
 
 <xs:element name="nombre" type="tiponombre" />
 <xs:element name="calle" type="tiponombre"/>
-<xs:element name="polablacion" type="tiponombre" />
+<xs:element name="poblacion" type="tiponombre" />
 <xs:element name="provincia" type="tiponombre" />
-<xs:element name="cp" type="tipocp">/
-<xs:element name="varon" />
-<xs:element name="hembra" />
-
+<xs:element name="cp" type="tipocp"/>
+<xs:element name="varon"/>
+<xs:element name="hembra"/>
 
 <xs:attribute name="dia" type="tipodia"/>
 <xs:attribute name="mes" type="tipomes"/>
 <xs:attribute name="anyo" type="tipoanyo"/>
 
-<xs:element name="personas">
-    <xs:complexType>
-        <xs:sequence>
-            <xs:element ref="persona" maxOccurs="unbounded" />
-        </xs:sequence>
-    </xs:complexType>
-</xs:element>
+  <xs:element name="personas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="persona" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
 <xs:element name="persona">
     <xs:complexType>
         <xs:sequence>
             <xs:element ref="nombre" />
-            <xs:element ref="calle" />
+             <xs:element ref="nacimiento" />
+            <xs:element ref="direccion" />
             <xs:element ref="poblacion" />
             <xs:element ref="provincia" />
             <xs:element ref="cp" />
@@ -72,4 +72,22 @@
         <xs:attribute ref="anyo" />
     </xs:complexType>
 </xs:element>
+
+<xs:element name="nacimiento">
+        <xs:complexType>
+           <xs:attribute name="dia" type="tipodia"/>
+          <xs:attribute name="mes" type="tipomes"/>
+          <xs:attribute name="anyo" type="tipoanyo"/>
+        </xs:complexType>
+    </xs:element>
+
+ <xs:element name="direccion">
+        <xs:complexType>
+         <xs:attribute name="calle" type="tiponombre"/>
+           <xs:attribute name="poblacion" type="tiponombre"/>
+          <xs:attribute name="provincia" type="tiponombre"/>
+          <xs:attribute name="cp" type="tipocp"/>
+        </xs:complexType>
+    </xs:element>
+
 </xs:schema>
